@@ -24,3 +24,12 @@ Thumbs.db
 *API 키*.md
 *apikey*.md
 *api_key*.md
+
+# Syncthing versions (must NEVER be in git)
+.stversions/
+
+# Syncthing versions (must NEVER be in git)
+.stversions/
+
+# Syncthing versions (must NEVER be in git)
+.stversions/
