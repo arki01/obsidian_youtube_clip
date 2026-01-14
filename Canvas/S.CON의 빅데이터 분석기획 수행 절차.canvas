@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"type":"group","id":"bb494df6290b06f2","x":920,"y":-240,"width":921,"height":1704,"label":"S.CON 데이터 분석 수행"},
+		{"type":"group","id":"9258a8837a496a19","x":-280,"y":-240,"width":840,"height":1403,"label":"S.CON 데이터 분석 프로젝트 수립"},
+		{"type":"group","id":"504c875a63d55d26","x":-1380,"y":-240,"width":828,"height":910,"label":"S.CON 데이터 분석 과제 발굴"},
+		{"type":"file","file":"20_Notes/DA/빅데이터 분석 과제 발굴 방법론.md","id":"80161cb72bf8bea9","x":-1360,"y":-173,"width":788,"height":733},
+		{"type":"text","text":"S.CON은 현재 분석대상에 대해 정의하기가 어려운 상태이기 때문에 '상향식 접근법' 으로 진행하는 것이 바람직 #SCON ","id":"57b9608bad5cc735","x":-1360,"y":600,"width":788,"height":50},
+		{"type":"file","file":"20_Notes/DA/빅데이터 분석 방법론(5단계).md","id":"17bf42fc44e2bfe5","x":-260,"y":-173,"width":781,"height":436},
+		{"type":"text","text":"프로젝트가 정의되는 핵심 단계라고 할 수 있겠다. 이 절차들을 통하여 프로젝트의 범위 설정부터 시스템 구현 및 평가까지 일련의 과정을 정의하는 단계이다. 아래 NCS 기반의 절차도 참고하여 유연하게 S.CON에 맞는 것을 구상해보자 #SCON ","id":"f9dc1f570c5cf318","x":-260,"y":303,"width":788,"height":97},
+		{"type":"file","file":"20_Notes/DA/NCS기반 빅데이터 분석 수행 절차.md","id":"1391052cadc082db","x":-260,"y":462,"width":788,"height":682},
+		{"type":"text","text":"데이터 수집 방법에 대해 고려 필요\n원천 데이터를 RDBMS, NoSQL 등의어떠한 형식으로 담을지 부터 고민이되어야 하며 이에 따른 시스템(플랫폼)의 인프라 구성도 결정이 필요하다.","id":"f41df5a63a74ea0b","x":940,"y":-173,"width":840,"height":86},
+		{"type":"file","file":"10_Clippings/Youtube/2023-10-02_건설산업의 빅데이터 분석 모델 예시 (by Chat GPT).md","id":"3c8eeb287d63c396","x":-1373,"y":840,"width":814,"height":800},
+		{"type":"file","file":"20_Notes/DA/데이터 웨어하우스(Data Warehouse).md","id":"e34b77a454ef4368","x":940,"y":-9,"width":400,"height":520},
+		{"type":"file","file":"20_Notes/DA/데이터 분석 모델링 프로세스.md","id":"cc335643f90214d2","x":940,"y":609,"width":881,"height":835},
+		{"type":"file","file":"20_Notes/DA/데이터 레이크(Data Lake).md","id":"771b3078cbb61a2c","x":1380,"y":-9,"width":400,"height":520}
+	],
+	"edges":[
+		{"id":"43bab79850056ce3","fromNode":"80161cb72bf8bea9","fromSide":"right","toNode":"17bf42fc44e2bfe5","toSide":"left","label":"과제 발굴 후"},
+		{"id":"b0398cfa0a10666f","fromNode":"17bf42fc44e2bfe5","fromSide":"right","toNode":"cc335643f90214d2","toSide":"left","label":"데이터 준비단계 착수 후"},
+		{"id":"dacbd57d9d77a704","fromNode":"17bf42fc44e2bfe5","fromSide":"right","toNode":"f41df5a63a74ea0b","toSide":"left","label":"데이터 준비단계 착수 전"},
+		{"id":"356c1be155e937a6","fromNode":"e34b77a454ef4368","fromSide":"right","toNode":"771b3078cbb61a2c","toSide":"left"},
+		{"id":"df94b60398233f5a","fromNode":"f41df5a63a74ea0b","fromSide":"bottom","toNode":"e34b77a454ef4368","toSide":"top"},
+		{"id":"a00f9f0688a1ce35","fromNode":"f41df5a63a74ea0b","fromSide":"bottom","toNode":"771b3078cbb61a2c","toSide":"top"},
+		{"id":"33a0adc6bc5446c2","fromNode":"3c8eeb287d63c396","fromSide":"top","toNode":"504c875a63d55d26","toSide":"bottom","toEnd":"none","label":"과제도출 사전 조사"}
+	]
+}

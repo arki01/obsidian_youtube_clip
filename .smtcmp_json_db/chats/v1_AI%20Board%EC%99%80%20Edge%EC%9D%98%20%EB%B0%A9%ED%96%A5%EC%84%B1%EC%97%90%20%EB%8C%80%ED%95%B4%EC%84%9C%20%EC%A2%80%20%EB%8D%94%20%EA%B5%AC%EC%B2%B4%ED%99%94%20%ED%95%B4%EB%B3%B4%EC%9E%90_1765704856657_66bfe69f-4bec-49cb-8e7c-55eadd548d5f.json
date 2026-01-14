@@ -1,0 +1,291 @@
+{
+  "id": "66bfe69f-4bec-49cb-8e7c-55eadd548d5f",
+  "title": "AI Board와 Edge의 방향성에 대해서 좀 더 구체화 해보자",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "AI Board와 Edge의 방향성에 대해서 좀 더 구체화 해보자",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "## Potentially Relevant Snippets from the current vault\n```20_Notes/AI Board/Edge 파트 운영 방안.md\n1|---\n2|Created: 2025-10-26 21:58\n3|tags:\n4|  - 업무/AI_Board\n5|aliases:\n6|  - Edge 파트\n7|---\n8|\n9|# 개요\n10|\n11|Edge 파트는 AI 기술을 현장의 실질적 성과로 전환하는 실행 조직(AI-on-Site Hub) 으로서,\n12|AI Board 내의 기술·데이터·전략 파트와 현장 조직을 연결해 AI 내재화(Internalization) 를 주도합니다.\n13|\n14|그동안 S.CON을 중심으로 CQSS 전 영역의 디지털 관리체계를 운영하며\n15|현장 데이터를 표준화하고, 데이터 기반 의사결정의 토대를 다져왔습니다.\n16|이제 Edge는 이러한 경험을 바탕으로, AI가 현장에서 실제로 작동하는 단계로 발전시키고자 합니다.\n17|\n18|운영 전략의 핵심은 **“직접 수행이 아닌 조율과 확산”**에 있습니다.\n19|Edge는 기술을 개발하기보다,\n20|\n21|1. 현장의 Pain Point를 정의하고,\n22|\n23|2. 가장 적합한 AI 솔루션을 연계·검증하며,\n24|\n25|3. 그 결과를 전사로 확산하는 조율자(Orchestrator) 의 역할을 수행합니다.\n26|\n27|이를 위해 AI Board 내부 협업(Alpha·Build·Foundation)뿐만 아니라,\n28|DX조직·품질본부·안전본부 등 타 부서 및 주요 현장과의 공동 추진체계(Co-Lead 모델) 를 구축하여\n29|소규모 핵심팀이지만 대규모 영향력(Leverage) 을 확보하는 네트워크형 운영을 지향합니다.\n30|\n31|결과적으로 Edge 파트는\n32|데이터 수집 → AI 실증 → 자동화 → 통합관리 로 이어지는 전 과정을 주도하며,\n33|AI Board의 비전인 “AI가 작동하는 현장, AI-on-Site” 를 실현하는 중심 역할을 수행할 것입니다.\n34|\n35|# 내용\n```\n```20_Notes/AI Board/Edge 파트 운영 방안.md\n37|## 추진 핵심\n38|1. Edge는 기획과 조율 중심으로 움직인다.\n39|\t- Edge 파트의 전략적 역할은 “직접 수행”보다 “AI 현장 혁신의 허브(허락된 조율자)”\n40|\t- 기술을 직접 개발하는 팀이 아니라, 기술과 현장을 연결하고 조율하는 실행 허브(Execution Hub) 역할을 수행\n41|\t- 기술 상세는 Build, 인프라는 Foundation에 위임\n42|2. 각 PoC에 ‘공동 리더십 구조(Co-Lead)’를 만든다.\n43|\t- 현장 담당자와 Edge 담당자가 1:1 매칭\n44|3. 협력 조직에 ‘Win 포인트’를 제공한다.\n45|\t- 단순 지원요청이 아니라, “성과 공유 구조”로 설계\n46|4. 협업 프로세스를 단순화한다.\n47|\t- 의사결정 라인을 최소화하고, Board 내 승인체계 활용\n```\n```20_Notes/AI Board/AI Board 파트 역할 체계.md\n1|---\n2|Created: 2025-10-26 22:16\n3|tags:\n4|  - 업무/AI_Board\n5|---\n6|\n7|# 개요\n8|\n9|AI Board는 **AI를 기업의 핵심 경쟁력으로 내재화하기 위한 실행 거버넌스 조직**으로,  \n10|AI 기술의 도입 단계를 넘어 **‘AI가 실제로 작동하는 조직문화와 업무 방식’을 만드는 것**을 목표로 한다.\n11|\n12|슬로건 _“AI Forward, Building Excellence”_ 아래,  \n13|AI Board는 건설 밸류체인 전반(기획–설계–시공–운영)을 관통하는 혁신을 지향하며  \n14|이를 실현하기 위해 **기획·데이터·기술·현장**의 네 개 파트를 구성하였다.\n15|\n16|- **Alpha 파트**는 AI Board의 두뇌로서 **전략과 방향을 제시하고 외부 생태계를 연결**한다.\n17|    \n18|- **Foundation 파트**는 **데이터 거버넌스와 인프라를 구축**하여 모든 AI 프로젝트의 기반을 제공한다.\n19|    \n20|- **Build 파트**는 **핵심 기술 개발과 모델 내재화를 주도하는 기술 엔진** 역할을 수행한다.\n21|    \n22|- **Edge 파트**는 **AI 기술을 실제 현장성과로 전환하는 실행조직**으로,  \n23|    로보틱스·자동화·품질·안전 등 물리적 공간에서의 AI 실증과 확산을 담당한다.\n24|    \n25|\n26|이 네 파트는 각각의 전문성을 바탕으로 독립적으로 운영되지만,  \n27|**Alpha → Foundation → Build → Edge**로 이어지는 선순환 구조를 형성하여  \n28|AI 기획에서 현장 실증, 그리고 다시 데이터 피드백으로 이어지는 **End-to-End AI Value Chain**을 완성한다.\n29|\n30|결과적으로 AI Board는  \n31|**“기획은 Alpha가, 기반은 Foundation이, 기술은 Build가, 실행은 Edge가”** 담당하는  \n32|명확한 역할 분담 체계를 통해 **AI 내재화의 속도와 깊이를 동시에 확보하는 조직**으로 자리매김하고 있다.\n33|\n34|# 내용\n```\n```20_Notes/AI Board/AI Board 파트 역할 체계.md\n45|| **Build (설계)**            | - 설계 자동화, 생성형 AI 설계 활용<br>- 디지털 트윈·시뮬레이션 기술 개발<br>- 핵심 AI 기술 내재화 연구<br>- 건설 도메인 특화 AI 모델 개발 (설계단계) | **기술 응용 및 엔지니어링 중심 (Innovative / Technical)**<br>생성형 AI, 시뮬레이션 등 기술 혁신의 중심 | “AI Board의 엔진(Engine)”         |\n46|| **Edge (현장)**             | - 시공현장 AI 솔루션 개발 및 적용<br>- 로보틱스·자동화 (드론, 로봇 등)<br>- 품질/안전/공정 관리 자동화<br>- 현장 데이터 수집 및 분석 자동화        | **실행 및 가치창출 중심 (Execution / Applied)**<br>AI 기술을 실제 ‘현장 성과’로 전환하는 실천조직     | “AI Board의 손과 발(Hands & Feet)” |\n```\n```20_Notes/AI Board/Edge 파트 운영 방안.md\n67|## 협업 구조\n68|| 축                                | 주요 파트너                            | 협력 형태                 | 목적                        |\n69|| -------------------------------- | --------------------------------- | --------------------- | ------------------------- |\n70|| **AI Board 내 파트 협력 (내부 연계)**         | Alpha, Build, Foundation          | 기획·데이터·기술 연계          | Edge는 PoC 현장 실증 및 피드백 담당  |\n71|| **타 부서/조직 협력 (Cross Collaboration)** | DT/DX 팀, 품질/안전/생산성 센터, 각 본부 기술팀   | 공동과제 기획, 현장 운영 리소스 확보 | Edge 인력 부족 보완 + 현장 실행력 확보 |\n72|| **현장 조직 협력 (현업 연계)**                 | 주요 시공현장, 현장 기술팀(공무, 품질, 안전), 협력업체 | 현장 실증, 데이터 수집, PoC 운영 | 실제 검증 데이터 확보 + 현장 내재화 촉진  |\n```\n```20_Notes/AI Board/AI Board 파트 역할 체계.md\n47|## 각 파트 성향의 조직학적 특징\n48|| 구분            | Alpha                | Foundation         | Build              | [[Edge 파트 운영 방안\\|Edge]] |\n49|| ------------- | -------------------- | ------------------ | ------------------ | ----------------------- |\n50|| **업무성향**      | 전략/기획/외부협력           | 데이터/인프라/거버넌스       | 기술연구/생성AI          | 현장실행/적용                 |\n51|| **조직문화**      | 개방적·창의적              | 체계적·분석적            | 실험적·기술지향           | 실행력·문제해결형               |\n52|| **핵심지표(KPI)** | AI 비전, PoC 수, 신사업 건수 | 데이터 체계화, AI 적용률    | 기술 성과, 모델 내재화율     | 현장 적용률, 생산성 향상, 리스크 절감  |\n53|| **필요역량**      | 전략기획, 협업조정, 트렌드 분석   | 데이터 분석, 시스템 설계     | AI 모델링, 기술개발       | 현장 경험, 실무 문제 해결력        |\n54|| **리더 역할**     | 방향 제시자 (Navigator)   | 체계 구축자 (Architect) | 기술 선도자 (Innovator) | 실행 리더 (Executor)        |\n55|\n56|\n57|# 출처\n58|\n59|\n60|# 관련 노트\n```\n```20_Notes/AI Board/AI Board 파트 역할 체계.md\n35|## AI Board 방향성\n36|슬로건: “**AI Forward, Building Excellence”**\n37|→ 즉, AI를 통해 건설 밸류체인의 전 단계를 혁신하고, 궁극적으로 Building Excellence (시공/설계/관리 품질 향상)을 실현한다는 뜻.\n```\n```20_Notes/AI Board/AI Board 파트 역할 체계.md\n41|| 파트                        | 주요 역할                                                                                              | 성향 요약                                                                      | 조직 내 포지션                       |\n42|| ------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------ |\n43|| **Alpha (기획)**            | - AI 비전 및 로드맵 수립<br>- 신사업 모델 발굴, 기술 파트너십<br>- AI 리터러시 및 역량 육성 체계 운영<br>- Open Innovation, PoC 기획   | **전략·기획 중심 (Strategic / External)**<br>AI Board 전체 방향을 정립하고 외부 생태계를 연결     | “AI Board의 두뇌(Brain)”          |\n44|| **Foundation (사업관리/데이터)** | - 전사 Data 체계 Upgrade (E2E Dataflow)<br>- AI 기반 리스크 관리<br>- AI 기반 Performance Monitoring            | **데이터 기반 인프라 (Analytical / Governance)**<br>AI 적용을 위한 전사적 Data Backbone 구축 | “AI Board의 척추(Backbone)”       |\n```\n```20_Notes/AI Board/Edge 파트 운영 방안.md\n74|## 협력 프로토콜 (운영 방식)\n75|\n76|| 구분                               | 설명                            | 실제 예시                                       |\n77|| -------------------------------- | ----------------------------- | ------------------------------------------- |\n78|| **공동 과제체계 (Joint Task)**         | 각 부서와 공동으로 과제 정의 및 추진         | “Edge-품질본부 공동 PoC: AI 기반 균열검사 자동화”          |\n79|| **AI 현장 TF 구성 (Site Taskforce)** | 주요 현장별 담당자 지정 + Edge 리드       | “○○현장 AI TF: Edge 1명 + 품질담당 1명 + 기술지원 1명”   |\n80|| **PoC 파트너십 운영 (Tech Partner)**   | 외부 기술사와 공동검증, Build 협력        | “DeepRobotics, Namuh 등과 Vision/Robotics 실증” |\n81|| **데이터 루프 거버넌스 (Foundation 연계)**  | 현장 데이터 → Data Lake → 분석 → 피드백 | “Edge→Foundation 간 E2E Dataflow 운영체계 구축”    |\n82|\n83|\n84|# 출처\n85|\n86|\n87|# 관련 노트\n88|\n89|[[AI Board 파트 역할 체계]]\n```\n```10_Clippings/Youtube/2025-10-21_AI 대폭등장과 여우짓.md\n50|## 7. AMD·브로드컴 가속\n51|(14:04~15:21, https://www.youtube.com/watch?v=wR_lK_EbeMU&t=844s)\n52|- AMD, MI450 설계 단계부터 오픈AI와 협업 → 최대 6GW급 GPU 성능 공급 의향.\n53|- 리사 수, AMD 지분 최대 10%를 인센티브로 제공 제안.\n54|- 브로드컴 협상도 엔비디아 딜 이후 급가속.\n55|\n56|## 8. 알트먼의 ‘여우짓’ 메커니즘\n57|(15:21~16:20, https://www.youtube.com/watch?v=wR_lK_EbeMU&t=921s)\n58|- MS에 소프트뱅크 카드를, 엔비디아에 구글 TPU 카드를 보여주며 레버리지 극대화.\n59|- 연쇄적으로 ‘FOMO’ 자극 → 대형 의향성 딜 동시다발.\n60|\n61|## 9. 투자자 관점: 촉매와 우려\n62|(16:20~17:34, https://www.youtube.com/watch?v=wR_lK_EbeMU&t=980s)\n63|- 단기 촉매는 많았지만 추가 딜 모멘텀의 한계 우려.\n64|- 오픈AI의 수익 창출이 아직 가시화되지 않아 군비 경쟁의 지속 가능성 의문.\n65|- 다만 아직 ‘피크’로 단정하긴 이르다는 시각 병존.\n66|\n67|# 결론\n68|오픈AI의 초과확신 내러티브와 알트먼의 협상술이 빅테크의 자존심 경쟁을 촉발, 초대형 인프라 의향성 계약을 연쇄적으로 끌어냈다. 이는 AI·반도체 랠리를 강화했지만, 실제 수익화·현금흐름·지속가능성 검증이 뒤따라야 한다. 단기적으로는 FOMO가 지배하나, 중장기 성패는 **수익화 타임라인과 실사용량(학습+추론) 성장**이 결정할 것이다.\n69|\n70|# 출처\n71|https://www.youtube.com/watch?v=wR_lK_EbeMU\n```\n\n\n\nAI Board와 Edge의 방향성에 대해서 좀 더 구체화 해보자\n\n"
+        }
+      ],
+      "id": "71c91d58-32b8-43cd-9f20-c184ad8a1bfb",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "20_Notes/AI Board/AI Board 및 Edge 파트 방향성 구체화.md"
+        }
+      ],
+      "similaritySearchResults": [
+        {
+          "id": 530,
+          "path": "20_Notes/AI Board/Edge 파트 운영 방안.md",
+          "mtime": 1761484892204,
+          "content": "---\nCreated: 2025-10-26 21:58\ntags:\n  - 업무/AI_Board\naliases:\n  - Edge 파트\n---\n\n# 개요\n\nEdge 파트는 AI 기술을 현장의 실질적 성과로 전환하는 실행 조직(AI-on-Site Hub) 으로서,\nAI Board 내의 기술·데이터·전략 파트와 현장 조직을 연결해 AI 내재화(Internalization) 를 주도합니다.\n\n그동안 S.CON을 중심으로 CQSS 전 영역의 디지털 관리체계를 운영하며\n현장 데이터를 표준화하고, 데이터 기반 의사결정의 토대를 다져왔습니다.\n이제 Edge는 이러한 경험을 바탕으로, AI가 현장에서 실제로 작동하는 단계로 발전시키고자 합니다.\n\n운영 전략의 핵심은 **“직접 수행이 아닌 조율과 확산”**에 있습니다.\nEdge는 기술을 개발하기보다,\n\n1. 현장의 Pain Point를 정의하고,\n\n2. 가장 적합한 AI 솔루션을 연계·검증하며,\n\n3. 그 결과를 전사로 확산하는 조율자(Orchestrator) 의 역할을 수행합니다.\n\n이를 위해 AI Board 내부 협업(Alpha·Build·Foundation)뿐만 아니라,\nDX조직·품질본부·안전본부 등 타 부서 및 주요 현장과의 공동 추진체계(Co-Lead 모델) 를 구축하여\n소규모 핵심팀이지만 대규모 영향력(Leverage) 을 확보하는 네트워크형 운영을 지향합니다.\n\n결과적으로 Edge 파트는\n데이터 수집 → AI 실증 → 자동화 → 통합관리 로 이어지는 전 과정을 주도하며,\nAI Board의 비전인 “AI가 작동하는 현장, AI-on-Site” 를 실현하는 중심 역할을 수행할 것입니다.\n\n# 내용",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 35,
+            "startLine": 1
+          },
+          "similarity": 0.6355123765004139
+        },
+        {
+          "id": 531,
+          "path": "20_Notes/AI Board/Edge 파트 운영 방안.md",
+          "mtime": 1761484892204,
+          "content": "## 추진 핵심\n1. Edge는 기획과 조율 중심으로 움직인다.\n\t- Edge 파트의 전략적 역할은 “직접 수행”보다 “AI 현장 혁신의 허브(허락된 조율자)”\n\t- 기술을 직접 개발하는 팀이 아니라, 기술과 현장을 연결하고 조율하는 실행 허브(Execution Hub) 역할을 수행\n\t- 기술 상세는 Build, 인프라는 Foundation에 위임\n2. 각 PoC에 ‘공동 리더십 구조(Co-Lead)’를 만든다.\n\t- 현장 담당자와 Edge 담당자가 1:1 매칭\n3. 협력 조직에 ‘Win 포인트’를 제공한다.\n\t- 단순 지원요청이 아니라, “성과 공유 구조”로 설계\n4. 협업 프로세스를 단순화한다.\n\t- 의사결정 라인을 최소화하고, Board 내 승인체계 활용",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 47,
+            "startLine": 37
+          },
+          "similarity": 0.5797952198005781
+        },
+        {
+          "id": 538,
+          "path": "20_Notes/AI Board/AI Board 파트 역할 체계.md",
+          "mtime": 1761484977914,
+          "content": "---\nCreated: 2025-10-26 22:16\ntags:\n  - 업무/AI_Board\n---\n\n# 개요\n\nAI Board는 **AI를 기업의 핵심 경쟁력으로 내재화하기 위한 실행 거버넌스 조직**으로,  \nAI 기술의 도입 단계를 넘어 **‘AI가 실제로 작동하는 조직문화와 업무 방식’을 만드는 것**을 목표로 한다.\n\n슬로건 _“AI Forward, Building Excellence”_ 아래,  \nAI Board는 건설 밸류체인 전반(기획–설계–시공–운영)을 관통하는 혁신을 지향하며  \n이를 실현하기 위해 **기획·데이터·기술·현장**의 네 개 파트를 구성하였다.\n\n- **Alpha 파트**는 AI Board의 두뇌로서 **전략과 방향을 제시하고 외부 생태계를 연결**한다.\n    \n- **Foundation 파트**는 **데이터 거버넌스와 인프라를 구축**하여 모든 AI 프로젝트의 기반을 제공한다.\n    \n- **Build 파트**는 **핵심 기술 개발과 모델 내재화를 주도하는 기술 엔진** 역할을 수행한다.\n    \n- **Edge 파트**는 **AI 기술을 실제 현장성과로 전환하는 실행조직**으로,  \n    로보틱스·자동화·품질·안전 등 물리적 공간에서의 AI 실증과 확산을 담당한다.\n    \n\n이 네 파트는 각각의 전문성을 바탕으로 독립적으로 운영되지만,  \n**Alpha → Foundation → Build → Edge**로 이어지는 선순환 구조를 형성하여  \nAI 기획에서 현장 실증, 그리고 다시 데이터 피드백으로 이어지는 **End-to-End AI Value Chain**을 완성한다.\n\n결과적으로 AI Board는  \n**“기획은 Alpha가, 기반은 Foundation이, 기술은 Build가, 실행은 Edge가”** 담당하는  \n명확한 역할 분담 체계를 통해 **AI 내재화의 속도와 깊이를 동시에 확보하는 조직**으로 자리매김하고 있다.\n\n# 내용",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 34,
+            "startLine": 1
+          },
+          "similarity": 0.5295393256960328
+        },
+        {
+          "id": 542,
+          "path": "20_Notes/AI Board/AI Board 파트 역할 체계.md",
+          "mtime": 1761484977914,
+          "content": "| **Build (설계)**            | - 설계 자동화, 생성형 AI 설계 활용<br>- 디지털 트윈·시뮬레이션 기술 개발<br>- 핵심 AI 기술 내재화 연구<br>- 건설 도메인 특화 AI 모델 개발 (설계단계) | **기술 응용 및 엔지니어링 중심 (Innovative / Technical)**<br>생성형 AI, 시뮬레이션 등 기술 혁신의 중심 | “AI Board의 엔진(Engine)”         |\n| **Edge (현장)**             | - 시공현장 AI 솔루션 개발 및 적용<br>- 로보틱스·자동화 (드론, 로봇 등)<br>- 품질/안전/공정 관리 자동화<br>- 현장 데이터 수집 및 분석 자동화        | **실행 및 가치창출 중심 (Execution / Applied)**<br>AI 기술을 실제 ‘현장 성과’로 전환하는 실천조직     | “AI Board의 손과 발(Hands & Feet)” |",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 46,
+            "startLine": 45
+          },
+          "similarity": 0.5196471570870785
+        },
+        {
+          "id": 536,
+          "path": "20_Notes/AI Board/Edge 파트 운영 방안.md",
+          "mtime": 1761484892204,
+          "content": "## 협업 구조\n| 축                                | 주요 파트너                            | 협력 형태                 | 목적                        |\n| -------------------------------- | --------------------------------- | --------------------- | ------------------------- |\n| **AI Board 내 파트 협력 (내부 연계)**         | Alpha, Build, Foundation          | 기획·데이터·기술 연계          | Edge는 PoC 현장 실증 및 피드백 담당  |\n| **타 부서/조직 협력 (Cross Collaboration)** | DT/DX 팀, 품질/안전/생산성 센터, 각 본부 기술팀   | 공동과제 기획, 현장 운영 리소스 확보 | Edge 인력 부족 보완 + 현장 실행력 확보 |\n| **현장 조직 협력 (현업 연계)**                 | 주요 시공현장, 현장 기술팀(공무, 품질, 안전), 협력업체 | 현장 실증, 데이터 수집, PoC 운영 | 실제 검증 데이터 확보 + 현장 내재화 촉진  |",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 72,
+            "startLine": 67
+          },
+          "similarity": 0.5053425588224353
+        },
+        {
+          "id": 543,
+          "path": "20_Notes/AI Board/AI Board 파트 역할 체계.md",
+          "mtime": 1761484977914,
+          "content": "## 각 파트 성향의 조직학적 특징\n| 구분            | Alpha                | Foundation         | Build              | [[Edge 파트 운영 방안\\|Edge]] |\n| ------------- | -------------------- | ------------------ | ------------------ | ----------------------- |\n| **업무성향**      | 전략/기획/외부협력           | 데이터/인프라/거버넌스       | 기술연구/생성AI          | 현장실행/적용                 |\n| **조직문화**      | 개방적·창의적              | 체계적·분석적            | 실험적·기술지향           | 실행력·문제해결형               |\n| **핵심지표(KPI)** | AI 비전, PoC 수, 신사업 건수 | 데이터 체계화, AI 적용률    | 기술 성과, 모델 내재화율     | 현장 적용률, 생산성 향상, 리스크 절감  |\n| **필요역량**      | 전략기획, 협업조정, 트렌드 분석   | 데이터 분석, 시스템 설계     | AI 모델링, 기술개발       | 현장 경험, 실무 문제 해결력        |\n| **리더 역할**     | 방향 제시자 (Navigator)   | 체계 구축자 (Architect) | 기술 선도자 (Innovator) | 실행 리더 (Executor)        |\n\n\n# 출처\n\n\n# 관련 노트",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 60,
+            "startLine": 47
+          },
+          "similarity": 0.4725994353411226
+        },
+        {
+          "id": 539,
+          "path": "20_Notes/AI Board/AI Board 파트 역할 체계.md",
+          "mtime": 1761484977914,
+          "content": "## AI Board 방향성\n슬로건: “**AI Forward, Building Excellence”**\n→ 즉, AI를 통해 건설 밸류체인의 전 단계를 혁신하고, 궁극적으로 Building Excellence (시공/설계/관리 품질 향상)을 실현한다는 뜻.",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 37,
+            "startLine": 35
+          },
+          "similarity": 0.43922620427225056
+        },
+        {
+          "id": 541,
+          "path": "20_Notes/AI Board/AI Board 파트 역할 체계.md",
+          "mtime": 1761484977914,
+          "content": "| 파트                        | 주요 역할                                                                                              | 성향 요약                                                                      | 조직 내 포지션                       |\n| ------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------ |\n| **Alpha (기획)**            | - AI 비전 및 로드맵 수립<br>- 신사업 모델 발굴, 기술 파트너십<br>- AI 리터러시 및 역량 육성 체계 운영<br>- Open Innovation, PoC 기획   | **전략·기획 중심 (Strategic / External)**<br>AI Board 전체 방향을 정립하고 외부 생태계를 연결     | “AI Board의 두뇌(Brain)”          |\n| **Foundation (사업관리/데이터)** | - 전사 Data 체계 Upgrade (E2E Dataflow)<br>- AI 기반 리스크 관리<br>- AI 기반 Performance Monitoring            | **데이터 기반 인프라 (Analytical / Governance)**<br>AI 적용을 위한 전사적 Data Backbone 구축 | “AI Board의 척추(Backbone)”       |",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 44,
+            "startLine": 41
+          },
+          "similarity": 0.4021845709424543
+        },
+        {
+          "id": 537,
+          "path": "20_Notes/AI Board/Edge 파트 운영 방안.md",
+          "mtime": 1761484892204,
+          "content": "## 협력 프로토콜 (운영 방식)\n\n| 구분                               | 설명                            | 실제 예시                                       |\n| -------------------------------- | ----------------------------- | ------------------------------------------- |\n| **공동 과제체계 (Joint Task)**         | 각 부서와 공동으로 과제 정의 및 추진         | “Edge-품질본부 공동 PoC: AI 기반 균열검사 자동화”          |\n| **AI 현장 TF 구성 (Site Taskforce)** | 주요 현장별 담당자 지정 + Edge 리드       | “○○현장 AI TF: Edge 1명 + 품질담당 1명 + 기술지원 1명”   |\n| **PoC 파트너십 운영 (Tech Partner)**   | 외부 기술사와 공동검증, Build 협력        | “DeepRobotics, Namuh 등과 Vision/Robotics 실증” |\n| **데이터 루프 거버넌스 (Foundation 연계)**  | 현장 데이터 → Data Lake → 분석 → 피드백 | “Edge→Foundation 간 E2E Dataflow 운영체계 구축”    |\n\n\n# 출처\n\n\n# 관련 노트\n\n[[AI Board 파트 역할 체계]]",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 89,
+            "startLine": 74
+          },
+          "similarity": 0.3925549780757669
+        },
+        {
+          "id": 611,
+          "path": "10_Clippings/Youtube/2025-10-21_AI 대폭등장과 여우짓.md",
+          "mtime": 1761088111000,
+          "content": "## 7. AMD·브로드컴 가속\n(14:04~15:21, https://www.youtube.com/watch?v=wR_lK_EbeMU&t=844s)\n- AMD, MI450 설계 단계부터 오픈AI와 협업 → 최대 6GW급 GPU 성능 공급 의향.\n- 리사 수, AMD 지분 최대 10%를 인센티브로 제공 제안.\n- 브로드컴 협상도 엔비디아 딜 이후 급가속.\n\n## 8. 알트먼의 ‘여우짓’ 메커니즘\n(15:21~16:20, https://www.youtube.com/watch?v=wR_lK_EbeMU&t=921s)\n- MS에 소프트뱅크 카드를, 엔비디아에 구글 TPU 카드를 보여주며 레버리지 극대화.\n- 연쇄적으로 ‘FOMO’ 자극 → 대형 의향성 딜 동시다발.\n\n## 9. 투자자 관점: 촉매와 우려\n(16:20~17:34, https://www.youtube.com/watch?v=wR_lK_EbeMU&t=980s)\n- 단기 촉매는 많았지만 추가 딜 모멘텀의 한계 우려.\n- 오픈AI의 수익 창출이 아직 가시화되지 않아 군비 경쟁의 지속 가능성 의문.\n- 다만 아직 ‘피크’로 단정하긴 이르다는 시각 병존.\n\n# 결론\n오픈AI의 초과확신 내러티브와 알트먼의 협상술이 빅테크의 자존심 경쟁을 촉발, 초대형 인프라 의향성 계약을 연쇄적으로 끌어냈다. 이는 AI·반도체 랠리를 강화했지만, 실제 수익화·현금흐름·지속가능성 검증이 뒤따라야 한다. 단기적으로는 FOMO가 지배하나, 중장기 성패는 **수익화 타임라인과 실사용량(학습+추론) 성장**이 결정할 것이다.\n\n# 출처\nhttps://www.youtube.com/watch?v=wR_lK_EbeMU",
+          "model": "openai/text-embedding-3-small",
+          "dimension": 1536,
+          "metadata": {
+            "endLine": 71,
+            "startLine": 50
+          },
+          "similarity": 0.3922086988948117
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "AI Board 및 Edge 파트의 방향성을 체계적으로 구체화하기 위해, 기존 노트에서 제시된 개요, 역할, 협업 구조, 그리고 슬로건의 맥락을 통합하여 아래와 같이 정리할 수 있습니다.\n\n---\n\n<smtcmp_block filename=\"20_Notes/AI Board/무제.md\" language=\"markdown\">\n\n# AI Board 및 Edge 파트 방향성 구체화\n\n## AI Board의 핵심 방향성\n\n- **목표:** AI Board는 AI를 기업 핵심 경쟁력으로 내재화하고, 기술 도입을 넘어 실제 조직문화와 업무 방식의 혁신을 추구하는 실행 거버넌스 조직이다.\n- **비전 슬로건:** “AI Forward, Building Excellence”\n  - AI를 통해 건설 밸류체인의 전 단계를 혁신하고, 시공/설계/관리의 품질을 근본적으로 높인다.\n- **조직 구조:** Alpha(기획) → Foundation(데이터/인프라) → Build(기술개발) → Edge(현장실행)로 이어지는 End-to-End Value Chain을 구성한다.\n- **역할 분담:**\n  - Alpha: 비전, 로드맵, 외부 생태계 연결\n  - Foundation: 데이터 기반 인프라 및 거버넌스 구축\n  - Build: 핵심 AI 기술 개발과 내재화\n  - Edge: 현장 실증 및 적용, 실행력 극대화\n\n---\n\n## Edge 파트의 상세 방향성\n\n- **본질적 역할:** Edge 파트는 AI Board의 ‘손과 발(Hands & Feet)’로서, AI를 현장의 실질적 성과와 가치 창출로 전환하는 실행 허브.\n- **운영 철학:** 직접 수행보단 ‘조율자(Orchestrator)’ 역할에 집중. 기술 자체 개발보다는 현장의 Pain Point를 탐색하고 최적 AI 솔루션을 연계·실증·확산하는 데 초점을 둔다.\n- **Co-Lead 모델:** 주요 현장 및 타 부서와 공동 추진체계를 구축, 적은 규모의 코어팀으로도 대규모 영향력을 발휘하는 네트워크형 운영을 지향.\n- **주요 협업 방식:**  \n    - Board 내 Alpha·Build·Foundation과 유기적 협업\n    - 현장 조직, 품질/안전/DX팀과 공동 과제 및 PoC, 리소스 확보\n    - 외부 기술 파트너사와의 실증적 파트너십\n- **데이터 피드백 루프:** 원천 현장 데이터를 수집하여 Foundation 측과 연계, 실증 결과를 지속적으로 데이터 루프로 환류시켜 조직 전체의 AI 내재화 및 성과 극대화에 기여\n\n---\n\n## 가치와 지향점\n\n- **실행 가능성:** 현장 경험과 실용적 문제해결에 집중하여, AI의 실효성과 확산성을 극대화한다.\n- **지속적 혁신:** End-to-End 데이터 분석과 현장 피드백을 바탕으로, 변화하는 현장 이슈와 기술 흐름에 신속하게 대응\n- **조직문화:** 실행력, 문제해결형, 협력적 네트워크 중시\n\n---\n\n## 정리\n\n- **AI Board:** 기업 수준의 전략 및 End-to-End 혁신, 네 파트의 분명한 역할 분담과 선순환 구조 확립\n- **Edge 파트:** 현장 실행과 가치창출의 최전선, 조율력 기반의 확산 및 협력, 실제 성과 중심의 AI 실증\n\n</smtcmp_block>\n\n---\n\n이 구체화 요약은 아래의 기존 문서 내용을 바탕으로 작성되었습니다.\n\n<smtcmp_block filename=\"20_Notes/AI Board/AI Board 파트 역할 체계.md\" language=\"markdown\" startLine=\"7\" endLine=\"33\"></smtcmp_block>\n<smtcmp_block filename=\"20_Notes/AI Board/AI Board 파트 역할 체계.md\" language=\"markdown\" startLine=\"35\" endLine=\"37\"></smtcmp_block>\n<smtcmp_block filename=\"20_Notes/AI Board/AI Board 파트 역할 체계.md\" language=\"markdown\" startLine=\"41\" endLine=\"46\"></smtcmp_block>\n<smtcmp_block filename=\"20_Notes/AI Board/Edge 파트 운영 방안.md\" language=\"markdown\" startLine=\"9\" endLine=\"33\"></smtcmp_block>\n<smtcmp_block filename=\"20_Notes/AI Board/Edge 파트 운영 방안.md\" language=\"markdown\" startLine=\"37\" endLine=\"47\"></smtcmp_block>\n<smtcmp_block filename=\"20_Notes/AI Board/Edge 파트 운영 방안.md\" language=\"markdown\" startLine=\"67\" endLine=\"72\"></smtcmp_block>\n<smtcmp_block filename=\"20_Notes/AI Board/Edge 파트 운영 방안.md\" language=\"markdown\" startLine=\"74\" endLine=\"81\"></smtcmp_block>\n\n필요에 따라 이 틀을 추가적으로 세분화하거나, 사례(예시)와 KPI를 더해 구체적인 실행 가이드로 발전시킬 수 있습니다.",
+      "id": "f905153d-8aca-46ac-ba71-9a78a0f39cfc",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4.1",
+          "model": "gpt-4.1"
+        },
+        "usage": {
+          "prompt_tokens": 3783,
+          "completion_tokens": 1139,
+          "total_tokens": 4922,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "보고서 형태로 좀 더 내용을 디벨롭 시켜볼까",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n보고서 형태로 좀 더 내용을 디벨롭 시켜볼까\n\n"
+        }
+      ],
+      "id": "7adbdd3f-d8da-4b78-9087-36f74fa6efeb",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "20_Notes/AI Board/AI Board 및 Edge 파트 방향성 구체화.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "아래는 기존 내용을 기반으로 Obsidian, 보고서 스타일에 맞춰 구조화·서술형으로 디벨롭한 예시입니다.  \n실제 조직 내 전략 발표나 대외 설명 자료로 활용하기 좋도록 배경, 조직구조, 각 파트 역할, Edge의 구체적 운영 전략 및 기대효과 등을 추가로 서술하였습니다.\n\n<smtcmp_block filename=\"20_Notes/AI Board/AI Board 및 Edge 파트 방향성 구체화.md\" language=\"markdown\">\n# AI Board 및 Edge 파트 방향성 보고서\n\n---\n\n## 1. 서론\n\n지속적인 기술 진화와 산업 변화 속에서, AI는 기업의 본질적 경쟁력을 좌우하는 핵심 요소가 되고 있습니다. 우리 조직은 AI를 단순 도구가 아닌, 현장과 비즈니스 전반에 내재화하여, 실질적 혁신을 견인하고자 ‘AI Board’ 체계를 구축하였습니다.\n\n---\n\n## 2. AI Board 도입 배경 및 비전\n\n- **도입 배경:**  \n  - AI 기술 활용이 증가하지만, 대부분 프로젝트 단위·일회성 시범에 그친 현실을 극복하기 위해 실행 거버넌스 필요성 부각.\n  - 기획, 데이터, 기술, 현장 각 파트의 전문성과 실행력을 유기적으로 결합한 End-to-End 운영체계 요구.\n- **비전 슬로건:**  \n  - “AI Forward, Building Excellence”  \n  - AI로 건설 밸류체인 혁신 및 시공/설계/관리의 본질적 품질 향상\n\n---\n\n## 3. AI Board 조직 구조 및 파트 역할\n\n- **구성:** Alpha(기획) → Foundation(데이터/인프라) → Build(기술개발) → Edge(현장실행)\n- **역할 분담:**  \n    - **Alpha:** 전체 AI 전략 및 로드맵 수립, 외부 생태계 연결  \n    - **Foundation:** 데이터 거버넌스·인프라, 전사 데이터 체계화  \n    - **Build:** 핵심 AI기술 개발·내재화, 도메인 특화 AI 연구  \n    - **Edge:** 현장 실증 및 적용, 실질적 성과 창출(Hands & Feet)\n\n---\n\n## 4. Edge 파트 방향성 및 실행 전략\n\n### (1) 본질적 역할\n\n- Edge는 현장과 기술의 마지막 연결고리로, 모든 혁신의 ‘실행 허브’입니다.\n- 직접 개발보다는, **Pain Point 탐색→솔루션 검증·적용→성과 확산**의 조율자(Orchestrator)로 활동.\n- 소규모 조직이지만, 타 부서 및 현장과 협업(Co-Lead 구조)으로 대규모 임팩트 창출.\n\n### (2) 주요 운영 전략\n\n- **Pain Point 정의:** 현장의 실질 문제를 데이터 기반으로 진단(Needs Identification)\n- **최적 솔루션 연계 및 PoC:** Build·외부업체와 협력하여 PoC, 검증 및 실증\n- **결과 확산:** 검증된 성과를 전사로 빠르게 전파(성공사례 공유, 교육, 시스템화)\n- **지속적 데이터 루프:** 원천 현장 데이터를 Foundation에 환류(E2E Data Flow), AI 성능 고도화 기여\n\n### (3) 협업 및 네트워크\n\n- **내부:** Alpha, Build, Foundation 등과 유기적 파트너십 통한 End-to-End Value Chain 완성\n- **외부:** 품질/안전/생산성 본부, 현장 조직·기술파트, 솔루션사 등과 다양한 Joint Task 운영\n- **공동 리더십:** PoC별 1:1 매칭(Co-Lead) 및 성과 공유 체계 도입\n\n### (4) 기대 효과\n\n- 현장 적합형 혁신 확산 및 실질적 생산성·리스크 개선\n- 현장 중심의 데이터 기반 업무문화 정착 및 신속한 문제해결력 강화\n- AI 전사 내재화 및 현장 적용률·성과 KPI 향상(생산성, 품질, 리스크 절감 등)\n\n---\n\n## 5. 결론 및 향후 과제\n\nAI Board와 Edge 파트는 AI의 기획부터 현장 실증까지 선순환 Value Chain을 형성하며, 조직의 AI 내재화와 혁신을 견인합니다. 앞으로도 각 파트의 전문성을 바탕으로 협력적 네트워크를 강화하고, 전체 밸류체인의 데이터를 연결·활용하는 구조 혁신을 지속 추진해야 합니다.\n\n---\n\n</smtcmp_block>\n\n**설명:**  \n- 보고서 형식에 맞춰 서론, 배경, 구조, 전략, 기대 효과 등으로 세분화하였으며 서술형으로 가독성을 높였습니다.\n- 조직 내외 보고, 전략 회의, 임원 설명자료 등에 바로 활용 가능한 포맷입니다.\n- 필요시 각 파트별 상세 예시, 정량 KPI, 사례 등을 추가하면 더욱 구체화할 수 있습니다.",
+      "id": "e34bc765-5c03-4668-9953-18e6588b7149",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-4.1",
+          "model": "gpt-4.1"
+        },
+        "usage": {
+          "prompt_tokens": 5626,
+          "completion_tokens": 1128,
+          "total_tokens": 6754,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    }
+  ],
+  "createdAt": 1765704711275,
+  "updatedAt": 1765704856657,
+  "schemaVersion": 1
+}

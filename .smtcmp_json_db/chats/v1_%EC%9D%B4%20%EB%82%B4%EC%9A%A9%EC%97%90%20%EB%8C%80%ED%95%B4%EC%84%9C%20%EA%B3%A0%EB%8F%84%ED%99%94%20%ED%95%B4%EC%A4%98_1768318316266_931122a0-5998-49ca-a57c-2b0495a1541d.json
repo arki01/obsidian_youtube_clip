@@ -1,0 +1,84 @@
+{
+  "id": "931122a0-5998-49ca-a57c-2b0495a1541d",
+  "title": "이 내용에 대해서 고도화 해줘",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "이 내용에 대해서 고도화 해줘",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n이 내용에 대해서 고도화 해줘\n\n"
+        }
+      ],
+      "id": "24dc4c90-32ea-455b-8b79-0381842939fb",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "00_Inbox/돈의 심리학.md"
+        }
+      ]
+    },
+    {
+      "role": "assistant",
+      "content": "간결한 문장으로 다듬고, 구조(원칙/체크리스트)를 추가했습니다. 오탈자 수정, 표현 정교화, 실행 가능한 항목을 보강했습니다.\n\n<smtcmp_block filename=\"00_Inbox/돈의 심리학.md\" language=\"markdown\">\n<!-- 기존 문서 전체를 구조화하고 오탈자를 수정했습니다. 아래는 추가/수정된 내용만 표시합니다. -->\n\n# 돈의 심리학 — 투자 메모\n\n## 핵심 원칙\n- 항상 해가 뜰 수는 없다: 변동성은 정상이며 일시적 손실은 과정이다.\n- 목표는 승률이 아니라 손익비다: 이길 때 크게, 질 때 작게.\n- 크게 이길 순간에 집중하라: 비대칭 기회에 자본을 배분하라.\n- 꼬리가 몸통을 흔든다: 극단 사건이 성과를 좌우한다. 테일 리스크는 줄이고 테일 이익은 키워라.\n- 이성도 중요하지만, 장기 지속성을 위해서는 마음의 평온을 지키는 선택이 더 중요하다.\n\n## 실천 체크리스트\n- 기대 손익비 ≥ 3:1인가? 최대 손실(%)가 사전에 정의돼 있는가?\n- 포지션을 들고도 편안히 잘 수 있는가? 아니오라면 크기를 줄여라.\n- 꼬리 사건(-20% 등) 시 행동 계획: 스탑/헤지/현금 비중은?\n- 크게 이길 때 규칙: 추가매수/트레일링 스탑/부분 익절 기준은?\n- 사후 기록 일정: 언제, 무엇을 복기할 것인가?\n\n</smtcmp_block>",
+      "id": "587ef035-3603-42aa-a5b9-c281cd105d4c",
+      "metadata": {
+        "model": {
+          "providerType": "openai",
+          "providerId": "openai",
+          "id": "gpt-5",
+          "model": "gpt-5"
+        },
+        "usage": {
+          "prompt_tokens": 523,
+          "completion_tokens": 1987,
+          "total_tokens": 2510,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "audio_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1600,
+            "audio_tokens": 0,
+            "accepted_prediction_tokens": 0,
+            "rejected_prediction_tokens": 0
+          }
+        }
+      }
+    }
+  ],
+  "createdAt": 1768318251279,
+  "updatedAt": 1768318316266,
+  "schemaVersion": 1
+}
