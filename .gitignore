@@ -33,3 +33,7 @@ Thumbs.db
 
 # Syncthing versions (must NEVER be in git)
 .stversions/
+
+# NEVER commit these
+.stversions/
+.trash/
