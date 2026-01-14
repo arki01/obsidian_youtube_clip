@@ -18,3 +18,9 @@ Thumbs.db
 *.tmp
 *.swp
 *.lock
+
+# Secrets
+*API Key*.md
+*API 키*.md
+*apikey*.md
+*api_key*.md
