@@ -37,3 +37,11 @@ Thumbs.db
 # NEVER commit these
 .stversions/
 .trash/
+
+# Obsidian noisy files
+.obsidian/bookmarks.json
+
+# Local DB / archives (do not version in git)
+.smtcmp_json_db/
+.smtcmp_vector_db*
+*.tar.gz
